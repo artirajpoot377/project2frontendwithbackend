@@ -3,6 +3,8 @@ const internModel = require('../models/internModel')
 const { isEmpty, validLogo, validName } = require('../validator/validation')
 
 
+
+
 const createCollege = async function (req, res) {
    try {
       const data = req.body
